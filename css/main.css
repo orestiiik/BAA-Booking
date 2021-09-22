@@ -30,3 +30,7 @@
     background-color: #57b6ca;
     color: white;
   }
+
+  .topnav-right {
+    float: right;
+  }
