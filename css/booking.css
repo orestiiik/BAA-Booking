@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+  background-color: #f3f4f7;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #312d2f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #312d2f;
+  color: #57b6ca;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #57b6ca;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  background-color: rgb(211, 211, 211);
+  overflow-x: hidden;
+}
+
+.sidenav label {
+  padding: 10px 6px 10px 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+
+  color: #57b6ca;
+  display: block;
+  border-bottom: #312d2f 2px solid;
+}
+.sidenav i {
+  float: right;
+  padding-right: 15px;
+}
+.sidenav input {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.sidenav label:hover {
+  color: #267888;
+}
+.main {
+padding-top: 50px;
+  margin-left: 240px;
+}
+.main h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+}
+.main .item {
+  width: 22.2%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  align-self: center;
+}
+.main .item img{
+    height: 300px;
+    width: 300px;
+  }
+.main .item h3{
+    padding: 9px 0px 14px 0px;
+  }
+.main .item a{
+    text-decoration: none;
+    background-color: #57b6ca;
+    padding: 4px 8px 4px 8px;
+    color: rgb(255, 255, 255);
+  }
+  .main .item .avaliable{
+    background-color: #00ff37;
+    padding: 4px 8px 4px 8px;
+    color: rgb(255, 255, 255);
+  }
+  .main .item .not-avaliable{
+    background-color: #ff2600;
+    padding: 4px 8px 4px 8px;
+    color: rgb(255, 255, 255);
+  }
+.main .equipment {
+  padding: 40px 2px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
