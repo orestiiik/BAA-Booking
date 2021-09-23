@@ -1,8 +1,19 @@
 
+html {
+	height: 100%;
+	font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /*background-image: url(IMG_0985);*/
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -35,14 +46,32 @@
   .topnav-right {
     float: right;
   }
-
- /*#example1 {
-    background-image: url(IMG_0985.jpg), url(paper.gif);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-  }*/
-
-  body {
-    background-image: url(IMG_0992)no-repeat center fixed;
-    background-size: cover;
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch
   }
+  
+  .flex-item {
+    flex: 1 0 auto
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 110%;
+  }
+
+  .photos {
+    display:block;
+    margin-left:10%; 
+    margin-right:10%;
+    border-radius: 20px;
+    
+  } 
