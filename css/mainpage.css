@@ -148,7 +148,7 @@ ul li a:hover{
     
 .camera img{
     float: right;
-    margin-right: -470px;
+    margin-right: -400px;
     margin-top: -200px;
     margin-bottom: 0px;
     width: 330px;
@@ -221,12 +221,12 @@ h1{
 }
 .user2{
     width: 110px;
-    margin-right: 10px;
+    margin-right: -200px;
 }
     
 .user2 img{
     float: right;
-    margin-right: -190px;
+    margin-right: -170px;
     margin-top: 70px;
     width: 175px;
     height: 175px;
