@@ -179,3 +179,6 @@
   padding: 5px 9px 5px 9px;
   color: rgb(255, 255, 255);
 }
+a {
+  text-decoration: none;
+}

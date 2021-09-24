@@ -20,10 +20,12 @@ html, body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #57b6ca;
-    overflow: hidden;
-    height: 50px;
-  }
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: #f3f4f7;
+  overflow: hidden;
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -85,6 +87,7 @@ html, body {
     font-size: 110%;
     margin-left:5%; 
     margin-right:5%;
+    padding-bottom: 50px;
   }
 
   /* FOOTER */
@@ -99,6 +102,7 @@ html, body {
     height: 40px;
     display: flex;
     font-size: 15px;
+    
   }
 
   .footer .footer-content .footer-section {
@@ -131,7 +135,7 @@ html, body {
     margin-bottom: 8px;
     margin-left:5%; 
     margin-right:5%;
-    text-align: center;
+    text-align: left;
   }
 
   .footer .footer-content .footer-section-contact {
@@ -141,6 +145,4 @@ html, body {
     text-align: center;
   }
 
-  .page-wrapper {
-    min-height: 100%;
-  }
+ 
